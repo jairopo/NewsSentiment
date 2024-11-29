@@ -1,76 +1,75 @@
 # 📰 NewsSentiment
 
-**NewsSentiment** es una aplicación móvil desarrollada con **Flutter** que permite explorar las últimas noticias de los principales periódicos en inglés, analizadas y clasificadas por su **sentimiento** (positivo, neutral o negativo). Utilizando inteligencia artificial avanzada, esta app ofrece un análisis rápido y detallado de los titulares más relevantes.
+**NewsSentiment** is a mobile application developed with **Flutter** that allows users to explore the latest news from major English newspapers, analyzed and classified by their **sentiment** (positive, neutral, or negative). Using advanced artificial intelligence, this app offers a quick and detailed analysis of the most relevant headlines.
 
 ---
 
-## 🚀 Características
+## 🚀 Features
 
-- Consulta las últimas noticias de:
+- Browse the latest news from:
   - **BBC**
   - **NY Times**
   - **CNN**
-- Clasificación de noticias por sentimiento: **Positivo**, **Neutral**, **Negativo**.
-- Precisión del análisis de sentimientos basada en el modelo **FinBERT-tone**.
-- Enlaces directos para leer las noticias completas.
-- Interfaz intuitiva y moderna desarrollada con Flutter.
+- Sentiment classification of news: **Positive**, **Neutral**, **Negative**.
+- Sentiment analysis accuracy powered by the **FinBERT-tone** model.
+- Direct links to read full news articles.
+- Intuitive and modern interface developed with Flutter.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🛠️ Technologies Used
 
 ### **Frontend**
-- **Flutter**: Framework para el desarrollo multiplataforma de la aplicación móvil.
-- **Dart**: Lenguaje de programación para el desarrollo en Flutter.
+- **Flutter**: Framework for cross-platform mobile app development.
+- **Dart**: Programming language for Flutter development.
 
 ### **Backend**
-- **FastAPI**: API utilizada para realizar el análisis de sentimientos.
-- **FinBERT-tone**: Modelo de procesamiento del lenguaje natural para el análisis de sentimientos.
-- **Scrapping**: Sistema para obtener los titulares de las noticias en tiempo real.
+- **FastAPI**: API used for performing sentiment analysis.
+- **FinBERT-tone**: Natural language processing model for sentiment analysis.
+- **Scraping**: System to retrieve real-time news headlines.
 
 ---
 
-## 📱 Estructura de la aplicación
+## 📱 Application Structure
 
 1. **Home Screen**:
-   - Navegación entre noticias de diferentes periódicos.
-   - Visualización del número total de noticias disponibles.
-2. **Categorías de sentimiento**:
-   - Clasificación en pestañas: Positivo, Neutral y Negativo.
-3. **Detalles de noticias**:
-   - Vista de los titulares con su porcentaje de precisión.
-   - Icono para abrir el enlace directo al artículo.
+   - Navigate through news from different newspapers.
+   - Display the total number of available news articles.
+2. **Sentiment Categories**:
+   - Classification into tabs: Positive, Neutral and Negative.
+3. **News Details**:
+   - View headlines with their accuracy percentage.
+   - Icon to open a direct link to the article.
 4. **Drawer**:
-   - Logo de la aplicación
-   - Descripción de la misma
-   - Desarrolladores del proyecto
+   - App logo
+   - App description
+   - Project developers
 
 ---
 
-## 📥 Instalación de la app
+## 📥 App Installation
 
-### **Requisitos previos**
-- Contar con un dispositivo android (móvil/tablet)
-- Acceso a internet para consultar la API.
-- Mantener la API conectada.
+### **Prerequisites**
+- An Android device (phone/tablet).
+- Internet access to query the API.
+- Ensure the API remains connected.
 
-## **Descarga del APK**
-Para utilizar la aplicación debemos descargar el instalador, ubicado en la carpeta [APK](APK) que se encuentra en este repositorio. 
-Es posible que debido al antivirus del dispositivo salga un mensaje de advertencia. Debe saber que la aplicación no tiene ningún tipo de software malicioso, 
-por lo que puede confiar totalmente en ella. 
+## **APK Download**
+To use the application, download the installer located in the [APK](APK) folder within this repository.  
+It is possible that your device's antivirus may display a warning. Rest assured that the application contains no malicious software, so you can trust it completely.  
 
-Una vez descargada, podrá hacer pleno uso de la misma, siempre que se mantenga la API conectada.
+Once downloaded, you can fully use the app as long as the API remains connected.
 
 ---
 
-## 👨‍💻 Equipo de desarrollo
+## 👨‍💻 Development Team
 - David Moreno Cerezo:
-  - Desarrollador de la API y responsable de la integración del sistema de scraping de noticias.
+  - API developer and responsible for integrating the news scraping system.
 - Jairo Andrades Bueno:
-  - Desarrollador de la aplicación móvil y encargado de la implementación en Flutter.
-- Ambos:
-  - Diseño colaborativo de la aplicación y desarrollo conjunto del sistema de scraping.
+  - Mobile app developer and responsible for Flutter implementation.
+- Both:
+  - Collaborative design of the application and joint development of the scraping system.
 
---- 
+---
 
-¡Esperamos que disfrutes utilizando NewsSentiment! Si tienes alguna duda o sugerencia, no dudes en contactarnos. 😊
+We hope you enjoy using NewsSentiment! If you have any questions or suggestions, feel free to contact us. 😊
