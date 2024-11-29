@@ -80,7 +80,7 @@ class AppDrawer extends StatelessWidget {
                   boldTextSpan('FastAPI'),
                   normalTextSpan(
                       ', we obtain the news headlines, analyze their sentiment with the '),
-                  italicTextSpan('DistilBERT'),
+                  italicTextSpan('FinBERT-tone'),
                   normalTextSpan(' model, and show you a summary with the '),
                   boldTextSpan('sentiment, accuracy and a direct link'),
                   normalTextSpan(
