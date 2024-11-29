@@ -1,4 +1,4 @@
-/// New class
+/// Class to represent a new
 class New {
   /// Title of the new
   String title = '';
@@ -6,9 +6,9 @@ class New {
   /// Sentiment of the new
   String sentiment = '';
 
-  /// Confidence of the sentiment
+  /// Precision of the sentiment
   double precision = 0.0;
-  
+
   /// URL of the new
   String link = '';
 
@@ -20,6 +20,7 @@ class New {
     required this.link,
   });
 
+  /// Method that creates an instance of the class from a JSON
   factory New.fromJson(Map<String, dynamic> json) {
     return New(
       title: json['title'],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'app_drawer.dart';
 import 'news_widget.dart';
 
 /// News class to display news
@@ -35,12 +36,15 @@ class _NewsState extends State<News> {
       initialIndex: widget.index,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('News',
-              style: TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
-              )),
-          backgroundColor: const Color.fromRGBO(161, 0, 254, 1),
+          title: const Text(
+            'News',
+            style: TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          iconTheme: const IconThemeData(color: Colors.white),
+          backgroundColor: const Color.fromRGBO(97, 10, 190, 1),
           bottom: PreferredSize(
             preferredSize: const Size.fromHeight(48),
             child: Container(
@@ -57,14 +61,17 @@ class _NewsState extends State<News> {
                 tabs: [
                   // Title of the tabs
                   Tab(
-                      icon: Icon(Icons.sentiment_satisfied,
-                          color: Colors.green, size: 30)),
+                      child: Text('Positive',
+                          style: TextStyle(
+                              color: Color.fromARGB(255, 11, 174, 16)))),
                   Tab(
-                      icon: Icon(Icons.sentiment_neutral,
-                          color: Colors.grey, size: 30)),
+                      child: Text('Neutral',
+                          style: TextStyle(
+                              color: Color.fromARGB(255, 61, 61, 61)))),
                   Tab(
-                      icon: Icon(Icons.sentiment_dissatisfied,
-                          color: Colors.red, size: 30)),
+                      child: Text('Negative',
+                          style: TextStyle(
+                              color: Color.fromARGB(255, 227, 26, 12)))),
                 ],
               ),
             ),
@@ -80,6 +87,7 @@ class _NewsState extends State<News> {
             ],
           ),
         ),
+        drawer: const AppDrawer(),
       ),
     );
   }
